@@ -1,0 +1,37 @@
+[package]
+name = "demo10maggio"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.62"
+dotenvy = "0.15.7"
+identity_eddsa_verifier = "1.1.1"
+identity_iota = { version = "1.1.1", default-features = true, features = ["memstore", "domain-linkage"] }
+identity_storage = "1.1.1"
+identity_stronghold = "1.1.1"
+iota-sdk = { version = "1.1.4", default-features = false, features = ["tls", "client", "stronghold"] }
+iota_stronghold = "2.0.0"
+pdf = "0.9.0"
+primitive-types = "0.12.1"
+rand = "0.8.5"
+sd-jwt-payload = { version = "0.1.2", default-features = false, features = ["sha"] }
+serde = "1.0.197"
+serde_json = { version = "1.0", default-features = false }
+sha256 = "1.5.0"
+tokio = { version = "1.29", default-features = false, features = ["rt"] }
+
+[lib]
+path = "utils/lib.rs"
+
+
+[[bin]]
+name = "issueVc"
+path = "src/issueVc.rs"
+
+[[bin]]
+name = "requestVc"
+path = "src/requestVc.rs"
+

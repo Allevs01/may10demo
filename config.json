@@ -1,0 +1,10 @@
+{
+    "did_holder_string": "did:iota:snd:0xb87fd5509639552b8d7f21ee7dbc251dce985b3503f3b7e3ebe7ddb65d72b256",
+    "did_issuer_string": "did:iota:snd:0x6ff6a0a1abb33d9d5442ba4ac77e3513a80b8368522c7ea80306c455ec7dde78",
+    "fragment": "xifLTKr7wVluj817I_AIiNUPYPD4vPCDSH0FdPAZEyQ",
+    "password": "secure_password",
+    "stronghold_path": "/home/sallevi/Scrivania/demo10maggio/stronghold_path/test_strongholds/PEg3VArzL0T9eUU6RlG3IjjTjWsKPCAA.stronghold",
+    "file_path": "/home/sallevi/Scrivania/demo10maggio/files/ATTOnotarile.pdf",
+    "tag_str" :"demoIssuer",
+    "filename" : "/home/sallevi/Scrivania/demo10maggio/blocks/atti_notarili"
+}
